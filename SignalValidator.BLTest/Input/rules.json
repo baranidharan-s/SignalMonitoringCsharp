@@ -1,0 +1,57 @@
+﻿[
+  {
+    "signal": "ATL1",
+    "value_type": "DateTime",
+    "value": "2016-04-10 10:16:55",
+    "rule": ">"
+  },
+  {
+    "signal": "ATL1",
+    "value_type": "Integer",
+    "value": "200",
+    "rule": "!="
+  },
+  {
+    "signal": "ATL1",
+    "value_type": "String",
+    "value": "high",
+    "rule": "!="
+  },
+  {
+    "signal": "ATL1",
+    "value_type": "DateTime",
+    "value": "23/07/2017 13:24:00:1234",
+    "rule": "today"
+  },
+
+  {
+    "signal": "ATL9",
+    "value_type": "DateTime",
+    "value": "23/07/2016",
+    "rule": ">"
+  },
+  {
+    "signal": "ATL4",
+    "value_type": "Integer",
+    "value": "200",
+    "rule": ">"
+  },
+  {
+    "signal": "ATL6",
+    "value_type": "Integer",
+    "value": "80",
+    "rule": ">"
+  },
+  {
+    "signal": "ATL8",
+    "value_type": "String",
+    "value": "HIGH",
+    "rule": ">"
+  },
+  {
+    "signal": "ATL7",
+    "value_type": "Integer",
+    "value": "30",
+    "rule": ">"
+  }
+]

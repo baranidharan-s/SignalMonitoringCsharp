@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalValidator.IOProcessor", "SignalValidator\SignalValidator.IOProcessor.csproj", "{EC649143-2A9A-4167-B507-71B65C78F640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalValidator.App", "ConsoleSignalValidatorOutput\SignalValidator.App.csproj", "{9E1D5E7A-10A4-4388-91C7-9D3D61138D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalValidator.BL", "SignalValidator.BL\SignalValidator.BL.csproj", "{D4E31336-4790-464E-A6FE-EA470B2E8865}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UT", "UT", "{BF2E54BB-78BB-4A4E-81D1-A01BA487E05B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalValidator.BLTest", "SignalValidator.BLTest\SignalValidator.BLTest.csproj", "{7CE9E9AA-B219-4E17-A216-4F1EF3B0E74E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC649143-2A9A-4167-B507-71B65C78F640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC649143-2A9A-4167-B507-71B65C78F640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC649143-2A9A-4167-B507-71B65C78F640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC649143-2A9A-4167-B507-71B65C78F640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1D5E7A-10A4-4388-91C7-9D3D61138D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1D5E7A-10A4-4388-91C7-9D3D61138D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1D5E7A-10A4-4388-91C7-9D3D61138D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1D5E7A-10A4-4388-91C7-9D3D61138D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E31336-4790-464E-A6FE-EA470B2E8865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E31336-4790-464E-A6FE-EA470B2E8865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E31336-4790-464E-A6FE-EA470B2E8865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E31336-4790-464E-A6FE-EA470B2E8865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE9E9AA-B219-4E17-A216-4F1EF3B0E74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE9E9AA-B219-4E17-A216-4F1EF3B0E74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE9E9AA-B219-4E17-A216-4F1EF3B0E74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE9E9AA-B219-4E17-A216-4F1EF3B0E74E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CE9E9AA-B219-4E17-A216-4F1EF3B0E74E} = {BF2E54BB-78BB-4A4E-81D1-A01BA487E05B}
+	EndGlobalSection
+EndGlobal
